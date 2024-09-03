@@ -1,0 +1,6 @@
+Maria#F#5000#1
+João#M#4000#0
+Ana#F#6000#2
+Pedro#M#4500#1
+Carla#F#5500#3
+Ananda#F#15000#1
