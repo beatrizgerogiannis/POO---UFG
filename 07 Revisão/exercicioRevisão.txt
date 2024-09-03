@@ -1,0 +1,105 @@
+a) O que é uma classe ?
+
+    A classe representa um modelo abstrato do qual são criadas instâncias (objetos). 
+    Uma classe é uma coleção de dados e operações que manipulam tais dados. Consiste em dois tipos de elementos: atributos e métodos.
+
+b) O que é um objeto ?
+
+    Os objetos são instâncias das classes e cada um tem sua identidade, propriedades e comportamentos.
+    É uma representação real da classe que ocupa espaço na memória e consome recursos do computador.
+
+c) O que é um atributo?
+
+    São os dados que caracterizam os objetos daquela classe. Eles são armazenados em variáveis e constituem o estado do objeto.
+
+d) O que é um método?
+
+    São as operações (procedimentos ou funções) que manipulam os dados. São formados pelo tipo de retorno , pela sua assinatura e pelo código.
+
+e) O que é a assinatura de um método?
+
+    Inclui o nome do método e os tipos e ordem dos parâmetros (se houver).  A assinatura de um método é essencial para distingui-lo de outros métodos 
+     na mesma classe ou em classes diferentes.
+
+f) O que significa a palavra void na definição de um método e por que alguns métodos não tem esta palavra na sua definição?
+
+    Void indica que o método não retorna nenhum valor. Métodos sem a palavra "void" em sua definição geralmente retornam algum 
+    tipo de valor, seja ele um número, uma string, um objeto ou qualquer  outro tipo de dado.    
+
+g) O que é um construtor e quando ele é invocado?
+
+    Um construtor é um tipo especial de método em uma classe de programação que é invocado automaticamente quando um objeto dessa classe é criado.
+    Ele é usado para inicializar o estado inicial do objeto, como definir valores padrão para seus atributos ou executar outras operações de
+     inicialização necessárias.
+
+h) Para que serve o método main?
+
+    O método main serve como o ponto de entrada para a execução de um programa e é onde a execução do código começa. Ele é obrigatório em muitas linguagens
+     de programação e é onde você coloca o código que deseja que seja executado inicialmente quando o programa é iniciado.
+
+i) O que significa a sobrecarga de métodos?
+
+    A sobrecarga de métodos é um conceito em programação orientada a objetos que permite que uma classe tenha múltiplas versões de um método com o mesmo nome, 
+    mas com diferentes listas de parâmetros. Isso significa que você pode ter diversos métodos com o mesmo nome em uma classe, desde que cada um deles tenha 
+    uma assinatura de parâmetros diferente.
+
+j) O que são atributos e métodos estáticos (static) e para que eles servem?
+
+
+    Atributos e métodos estáticos são componentes de uma classe que pertencem à própria classe em vez de pertencerem a instâncias individuais dessa classe. 
+    Eles são compartilhados por todas as instâncias da classe e podem ser acessados diretamente através do nome da classe, sem precisar criar uma instância da classe.
+
+k) Qual a diferença entre um atributo de instância e um atributo de classe?
+
+    A diferença fundamental entre um atributo de instância e um atributo de classe é que o atributo de instância pertence a cada objeto individual da classe, 
+    enquanto o atributo de classe pertence à própria classe e é compartilhado por todas as instâncias da classe.
+
+l) O que é o escopo de uma variável?
+
+    
+    O escopo de uma variável refere-se à região do código onde essa variável pode ser acessada e usada. Em outras palavras, o escopo define onde uma variável é 
+    válida e visível dentro de um programa.
+    Existem dois tipos:
+    
+    Escopo Local:
+    Uma variável com escopo local é declarada dentro de um bloco específico, como dentro de um método, uma função ou um bloco de código delimitado por chaves {}.
+    A variável é válida apenas dentro desse bloco específico onde foi declarada.
+    Ela não pode ser acessada de fora desse bloco e é destruída quando o bloco de código é concluído.
+
+    Escopo Global (ou Escopo de Classe):
+    Uma variável com escopo global é declarada fora de todos os blocos de código, geralmente no nível superior de uma classe (em linguagens orientadas a objetos) ou 
+    diretamente no corpo de um programa.
+    A variável é acessível de qualquer lugar dentro do programa, ou seja, em qualquer método, função ou bloco de código.
+    Ela é válida e visível em todo o programa, a menos que seja ocultada por uma variável local com o mesmo nome em um escopo mais restrito.
+
+m) Para que servem os modificadores de acesso? Quais são?
+
+    São usados para controlar a visibilidade e o acesso aos membros (atributos, métodos, classes) de uma classe. Eles determinam quem pode acessar e modificar esses 
+    membros, tanto dentro da própria classe quanto fora dela. Os principais modificadores de acesso são:
+
+    Public:
+        O modificador public torna o membro acessível a todas as classes, independentemente de estarem dentro do mesmo pacote ou em pacotes diferentes.
+        Membros declarados como public podem ser acessados por qualquer classe no programa.
+    
+    Protected:
+        O modificador protected torna o membro acessível apenas para classes dentro do mesmo pacote, bem como para subclasses (herança).
+        Isso significa que membros protected podem ser acessados pelas classes no mesmo pacote e também por subclasses, mesmo que estejam em pacotes diferentes.
+    
+    Default (ou package-private):
+        O acesso padrão, também conhecido como "package-private", não usa um modificador de acesso explícito.
+        Membros sem modificador de acesso (ou seja, nenhum modificador é especificado) são acessíveis apenas para classes dentro do mesmo pacote.
+        Eles não são acessíveis para classes em pacotes diferentes, mesmo que sejam subclasse.
+    
+    Private:
+        O modificador private torna o membro acessível apenas dentro da própria classe onde foi declarado.
+        Membros private não podem ser acessados por outras classes, mesmo que estejam no mesmo pacote ou sejam subclasses.
+
+n) O que é uma classe abstrata e para que serve?
+
+     É uma classe que não pode ser instanciada diretamente, ou seja, você não pode criar objetos diretamente a partir dela. 
+     Em vez disso, ela serve como uma espécie de modelo ou esqueleto para outras classes que estendem (ou herdam) dela.
+
+o) O que é uma interface e para que serve?
+    É uma coleção de métodos abstratos (sem implementação) e, em algumas linguagens de programação, constantes, que definem um conjunto de operações que uma classe deve 
+    implementar.
+     Em essência, uma interface define um contrato que as classes devem seguir se desejarem ser consideradas como implementações desse contrato.
